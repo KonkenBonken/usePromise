@@ -1,6 +1,6 @@
 {
   "name": "use-promise-hook",
-  "version": "2.2.1",
+  "version": "2.3.1",
   "description": "Simple Promise Hook",
   "main": "build/index.js",
   "author": "Konrad Pettersson <konrad05pettersson@gmail.com>",
