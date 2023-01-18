@@ -1,6 +1,6 @@
 {
   "name": "use-promise-hook",
-  "version": "2.3.1",
+  "version": "2.3.2",
   "description": "Simple Promise Hook",
   "main": "build/index.js",
   "author": "Konrad Pettersson <konrad05pettersson@gmail.com>",
@@ -8,6 +8,7 @@
   "license": "ISC",
   "repository": "github:KonkenBonken/usePromise",
   "devDependencies": {
+    "readme-md-generator": "^1.0.0",
     "typescript": "^4.9.4"
   },
   "keywords": [
