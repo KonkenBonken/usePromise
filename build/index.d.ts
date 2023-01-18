@@ -1,1 +1,1 @@
-export default function usePromise(): (Promise<void> | (() => void))[];
+export default function usePromise(): readonly [Promise<void>, () => void];
