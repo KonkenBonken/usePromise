@@ -4,7 +4,7 @@ function usePromise(resolveValue) {
     let resolver = () => { throw new Error(); };
     let rejecter = () => { throw new Error(); };
     const promise = new Promise((resolve, reject) => {
-        resolver = () => resolve(resolveValue);
+        resolver = (value) => resolve(value ?? resolveValue);
         rejecter = reject;
     });
     return [promise, resolver, rejecter];
